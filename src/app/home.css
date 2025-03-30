@@ -266,7 +266,6 @@ section {
   position: relative;
   margin: auto;
   image-rendering: optimizeQuality;
-  width: 80px;
 }
 
 .social-card p {
