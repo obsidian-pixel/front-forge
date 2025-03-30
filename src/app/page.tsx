@@ -29,7 +29,13 @@ export default function Home() {
           <div className="card-container">
             <div className="social-card x-card">
               <div className="social-banner">
-                <img width={100} height={100} src={"./x-com-logo.avif"}></img>
+                <img
+                  width={100}
+                  height={100}
+                  src={
+                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/x-com-logo.avif"
+                  }
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -39,7 +45,13 @@ export default function Home() {
             </div>
             <div className="social-card discord-card">
               <div className="social-banner">
-                <img width={100} height={100} src={"./discord-logo.png"}></img>
+                <img
+                  width={100}
+                  height={100}
+                  src={
+                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/discord-logo.png"
+                  }
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -49,7 +61,13 @@ export default function Home() {
             </div>
             <div className="social-card forum-card">
               <div className="social-banner">
-                <img width={100} height={100} src={"./forum-icon.png"}></img>
+                <img
+                  width={100}
+                  height={100}
+                  src={
+                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/forum-icon.png"
+                  }
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -59,7 +77,13 @@ export default function Home() {
             </div>
             <div className="social-card blog-card">
               <div className="social-banner">
-                <img width={100} height={100} src={"./blog-icon.png"}></img>
+                <img
+                  width={100}
+                  height={100}
+                  src={
+                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/Blog-icon.png"
+                  }
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
