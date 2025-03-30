@@ -33,7 +33,6 @@ export default function Home() {
                 <Image
                   width={100}
                   height={100}
-                  overrideSrc="../public/x-com-logo.avif"
                   src={"/x-com-logo.avif"}
                   alt={""}
                 ></Image>
