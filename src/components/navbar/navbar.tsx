@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import "./navbar.css";
-import Image from "next/image";
 import Menu from "../menu/menu"; // Import the Menu component
 import LinkMan from "@/components/link-manager";
 
@@ -19,13 +18,7 @@ const Navbar: React.FC = () => {
       <nav className="navbar">
         <div className="navbar-logo">
           <Link href="/">
-            <Image
-              src="./logo.png"
-              alt="Logo"
-              width={50}
-              height={50}
-              overrideSrc="./public/logo.png"
-            />
+            <img src="./logo.png" alt="Logo" width={50} height={50} />
             FRONT FORGE
           </Link>
         </div>

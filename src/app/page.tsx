@@ -2,7 +2,6 @@ import "./home.css";
 import React from "react";
 import HeroSection from "../components/heroSection/heroSection";
 import Link from "next/link";
-import Image from "next/image";
 import LinkMan from "@/components/link-manager";
 
 export default function Home() {
@@ -30,12 +29,12 @@ export default function Home() {
           <div className="card-container">
             <div className="social-card x-card">
               <div className="social-banner">
-                <Image
+                <img
                   width={100}
                   height={100}
                   src={"./x-com-logo.avif"}
                   alt={""}
-                ></Image>
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -45,12 +44,12 @@ export default function Home() {
             </div>
             <div className="social-card discord-card">
               <div className="social-banner">
-                <Image
+                <img
                   width={100}
                   height={100}
                   src={"./discord-logo.png"}
                   alt={""}
-                ></Image>
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -60,12 +59,12 @@ export default function Home() {
             </div>
             <div className="social-card forum-card">
               <div className="social-banner">
-                <Image
+                <img
                   width={100}
                   height={100}
                   src={"./forum-icon.png"}
                   alt={""}
-                ></Image>
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -75,12 +74,12 @@ export default function Home() {
             </div>
             <div className="social-card blog-card">
               <div className="social-banner">
-                <Image
+                <img
                   width={100}
                   height={100}
                   src={"./blog-icon.png"}
                   alt={""}
-                ></Image>
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
