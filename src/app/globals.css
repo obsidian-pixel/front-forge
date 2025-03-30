@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #171717;
+  --accent1-lightest: #ffb399; /* Lightest Rust Orange */
+  --accent1-lighter: #ff9557; /* Lighter Rust Orange */
+  --accent1: #ff7c00; /* Rust Orange */
+  --accent1-darker: #b8450b; /* Darker Rust Orange */
+  --accent1-darkest: #7a2e08; /* Even Darker Rust Orange */
+  --accent2: #00aaff; /* Electric Blue */
+  --font-primary: #e6e6e6; /* Light Gray */
+  --font-secondary: #a6a6a6; /* Gray */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--font-primary);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--font-primary);
+}
+
+p {
+  color: var(--font-secondary);
+}
+
+button {
+  color: var(--font-secondary);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.root-layout-container {
+  padding-top: 80px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+  transition: all 0.3s;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.199);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent1);
+  border-radius: 10px;
+  border: 2px solid var(--foreground);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent1-darker);
+}
