@@ -43,7 +43,11 @@ export default function Home() {
             </div>
             <div className="social-card discord-card">
               <div className="social-banner">
-                <img width={100} height={100} src={"./discord-logo.png"}></img>
+                <img
+                  width={100}
+                  height={100}
+                  src={"../public/discord-logo.png"}
+                ></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
