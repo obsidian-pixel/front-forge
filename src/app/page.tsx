@@ -79,7 +79,7 @@ export default function Home() {
                   alt="blog logo"
                   width={100}
                   height={100}
-                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/blog-icon.png"
+                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/Blog-icon.png"
                 ></Image>
               </div>
               <p>12k Members</p>
