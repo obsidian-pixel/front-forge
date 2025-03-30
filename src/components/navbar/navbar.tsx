@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <nav className="navbar">
         <div className="navbar-logo">
           <Link href="/">
-            <Image src="/logo.png" alt="Logo" width={50} height={50} />
+            <Image src="./logo.png" alt="Logo" width={50} height={50} />
             FRONT FORGE
           </Link>
         </div>

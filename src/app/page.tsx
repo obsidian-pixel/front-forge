@@ -33,7 +33,7 @@ export default function Home() {
                 <Image
                   width={100}
                   height={100}
-                  src={"/x-com-logo.avif"}
+                  src={"./x-com-logo.avif"}
                   alt={""}
                 ></Image>
               </div>
@@ -48,7 +48,7 @@ export default function Home() {
                 <Image
                   width={100}
                   height={100}
-                  src={"/discord-logo.png"}
+                  src={"./discord-logo.png"}
                   alt={""}
                 ></Image>
               </div>
@@ -63,7 +63,7 @@ export default function Home() {
                 <Image
                   width={100}
                   height={100}
-                  src={"/forum-icon.png"}
+                  src={"./forum-icon.png"}
                   alt={""}
                 ></Image>
               </div>
@@ -78,7 +78,7 @@ export default function Home() {
                 <Image
                   width={100}
                   height={100}
-                  src={"/blog-icon.png"}
+                  src={"./blog-icon.png"}
                   alt={""}
                 ></Image>
               </div>
