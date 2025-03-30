@@ -5,6 +5,7 @@ import Link from "next/link";
 import "./navbar.css";
 import Menu from "../menu/menu"; // Import the Menu component
 import LinkMan from "@/components/link-manager";
+import Image from "next/image";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar: React.FC = () => {
       <nav className="navbar">
         <div className="navbar-logo">
           <Link href="/">
-            <img src="./logo.png" alt="Logo" width={50} height={50} />
+            <Image src="./logo.png" alt="Logo" width={50} height={50} />
             FRONT FORGE
           </Link>
         </div>
