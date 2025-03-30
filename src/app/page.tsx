@@ -32,8 +32,7 @@ export default function Home() {
                 <img
                   width={100}
                   height={100}
-                  src={"./x-com-logo.avif"}
-                  alt={""}
+                  src={"./public/x-com-logo.avif"}
                 ></img>
               </div>
               <p>12k Members</p>
@@ -44,12 +43,7 @@ export default function Home() {
             </div>
             <div className="social-card discord-card">
               <div className="social-banner">
-                <img
-                  width={100}
-                  height={100}
-                  src={"./discord-logo.png"}
-                  alt={""}
-                ></img>
+                <img width={100} height={100} src={"./discord-logo.png"}></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -59,12 +53,7 @@ export default function Home() {
             </div>
             <div className="social-card forum-card">
               <div className="social-banner">
-                <img
-                  width={100}
-                  height={100}
-                  src={"./forum-icon.png"}
-                  alt={""}
-                ></img>
+                <img width={100} height={100} src={"./forum-icon.png"}></img>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
