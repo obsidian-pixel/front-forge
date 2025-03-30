@@ -31,7 +31,7 @@ export default function Home() {
             <div className="social-card x-card">
               <div className="social-banner">
                 <Image
-                  alt=""
+                  alt="x logo"
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/x-com-logo.avif"
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="social-card discord-card">
               <div className="social-banner">
                 <Image
-                  alt=""
+                  alt="discord logo"
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/discord-logo.png"
@@ -61,7 +61,7 @@ export default function Home() {
             <div className="social-card forum-card">
               <div className="social-banner">
                 <Image
-                  alt=""
+                  alt="forum logo"
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/forum-icon.png"
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="social-card blog-card">
               <div className="social-banner">
                 <Image
-                  alt=""
+                  alt="blog logo"
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/blog-icon.png"
