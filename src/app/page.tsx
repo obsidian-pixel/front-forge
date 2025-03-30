@@ -33,7 +33,7 @@ export default function Home() {
                 <Image
                   width={100}
                   height={100}
-                  src={"./public/x-com-logo.avif"}
+                  src={"/public/x-com-logo.avif"}
                   alt={""}
                 ></Image>
               </div>
