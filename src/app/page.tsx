@@ -34,9 +34,7 @@ export default function Home() {
                   alt=""
                   width={100}
                   height={100}
-                  src={
-                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/x-com-logo.avif"
-                  }
+                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/x-com-logo.avif"
                 ></Image>
               </div>
               <p>12k Members</p>
@@ -51,7 +49,7 @@ export default function Home() {
                   alt=""
                   width={100}
                   height={100}
-                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/x-com-logo.avif"
+                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/discord-logo.png"
                 ></Image>
               </div>
               <p>12k Members</p>
@@ -66,9 +64,7 @@ export default function Home() {
                   alt=""
                   width={100}
                   height={100}
-                  src={
-                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/forum-icon.png"
-                  }
+                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/forum-icon.png"
                 ></Image>
               </div>
               <p>12k Members</p>
@@ -83,9 +79,7 @@ export default function Home() {
                   alt=""
                   width={100}
                   height={100}
-                  src={
-                    "https://github.com/obsidian-pixel/front-forge/blob/main/public/Blog-icon.png"
-                  }
+                  src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/blog-icon.png"
                 ></Image>
               </div>
               <p>12k Members</p>

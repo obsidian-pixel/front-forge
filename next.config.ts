@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "github.com",
-        pathname: "/obsidian-pixel/front-forge/blob/main/public/**",
+        hostname: "raw.githubusercontent.com",
+        pathname: "/obsidian-pixel/front-forge/main/public/**",
       },
     ],
   },
