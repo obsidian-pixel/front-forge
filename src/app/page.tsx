@@ -3,6 +3,7 @@ import React from "react";
 import HeroSection from "../components/heroSection/heroSection";
 import Link from "next/link";
 import LinkMan from "@/components/link-manager";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,12 +30,12 @@ export default function Home() {
           <div className="card-container">
             <div className="social-card x-card">
               <div className="social-banner">
-                <img
+                <Image
                   alt=""
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/x-com-logo.avif"
-                ></img>
+                ></Image>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -44,12 +45,12 @@ export default function Home() {
             </div>
             <div className="social-card discord-card">
               <div className="social-banner">
-                <img
+                <Image
                   alt=""
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/discord-logo.png"
-                ></img>
+                ></Image>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -59,12 +60,12 @@ export default function Home() {
             </div>
             <div className="social-card forum-card">
               <div className="social-banner">
-                <img
+                <Image
                   alt=""
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/forum-icon.png"
-                ></img>
+                ></Image>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
@@ -74,12 +75,12 @@ export default function Home() {
             </div>
             <div className="social-card blog-card">
               <div className="social-banner">
-                <img
+                <Image
                   alt=""
                   width={100}
                   height={100}
                   src="https://raw.githubusercontent.com/obsidian-pixel/front-forge/main/public/blog-icon.png"
-                ></img>
+                ></Image>
               </div>
               <p>12k Members</p>
               <p>3.2k Online</p>
