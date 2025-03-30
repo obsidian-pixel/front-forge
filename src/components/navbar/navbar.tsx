@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
               alt="Logo"
               width={50}
               height={50}
-              overrideSrc="./logo.png"
+              overrideSrc="./public/logo.png"
             />
             FRONT FORGE
           </Link>
