@@ -95,9 +95,15 @@ const Menu: React.FC<MenuProps> = ({ isOpen, onClose }) => {
             </div>
           </div>
         </div>
+
         <div className="menu-section">
-          <div className="menu-section-title">Marketplace</div>
+          <div className="menu-section-title">Tools</div>
           <div className="menu-section-items">
+            <div className="menu-item">
+              <Link href="/" onClick={onClose}>
+                Generators
+              </Link>
+            </div>
             <div className="menu-item">
               <Link href="/" onClick={onClose}>
                 Fonts
@@ -106,36 +112,6 @@ const Menu: React.FC<MenuProps> = ({ isOpen, onClose }) => {
             <div className="menu-item">
               <Link href="/" onClick={onClose}>
                 Icons
-              </Link>
-            </div>
-            <div className="menu-item">
-              <Link href="/" onClick={onClose}>
-                Tools
-              </Link>
-            </div>
-            <div className="menu-item">
-              <Link href="/" onClick={onClose}>
-                View Full Marketplace
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="menu-section">
-          <div className="menu-section-title">Tools</div>
-          <div className="menu-section-items">
-            <div className="menu-item">
-              <Link href="/" onClick={onClose}>
-                Glassmorphism
-              </Link>
-            </div>
-            <div className="menu-item">
-              <Link href="/" onClick={onClose}>
-                Buttons
-              </Link>
-            </div>
-            <div className="menu-item">
-              <Link href="/" onClick={onClose}>
-                Neumorphism
               </Link>
             </div>
             <div className="menu-item">

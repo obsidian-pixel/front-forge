@@ -79,7 +79,6 @@
   align-items: center;
   gap: 10px;
   transition: all 0.3s ease-in-out;
-  border-radius: 7px;
   max-width: 120px;
   justify-content: center;
   max-height: 50px;
@@ -130,7 +129,6 @@
   padding: 10px 20px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  border-radius: 7px;
   justify-content: center;
   height: 50px;
   height: 100%;

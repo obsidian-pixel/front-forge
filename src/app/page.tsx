@@ -89,12 +89,17 @@ export default function Home() {
               </Link>
             </div>
             <div className="social-section-decor">
-              Still not convinced? We have tons of cool tools and features.
+              Still not convinced? We have tons of awesome tools and features.
             </div>
           </div>
         </section>
-        <section className="content-section">
-          This is the another section
+        <section className="content-section features-section">
+          <h1 className="cs-title">{"The Toolbox You've Been Waiting For"}</h1>
+          <p className="cs-description">
+            {
+              "From code generators to design frameworks, discover the tools that simplify development and amplify creativity."
+            }
+          </p>
         </section>
         <section className="content-section">
           This is the secondary section
